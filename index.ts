@@ -1,1 +1,5 @@
-console.log(9)
+type User = {
+    id: number,
+    name: string,
+    email: string
+}
