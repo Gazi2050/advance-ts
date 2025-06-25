@@ -2,7 +2,6 @@
 function wrapInArray<T>(value: T): T[] {
     return [value]
 }
-
 // 🧪 Use it with different types
 const numArray = wrapInArray(5)
 console.log('Number Array:', numArray) // [5]
