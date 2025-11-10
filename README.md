@@ -1,4 +1,5 @@
-## ✅ Utility Types
+## Utility Types
+
 | Utility Type    | What It Does                                     | Real-Life Use                         |
 | --------------- | ------------------------------------------------ | ------------------------------------- |
 | `Partial<T>`    | Makes all fields optional                        | Form updates, PATCH requests          |
