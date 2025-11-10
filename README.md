@@ -14,8 +14,6 @@
 | `never`     | Represents impossible values   | Exhaustive checks in switches       |
 | `void`      | No return value                | Functions that don’t return         |
 
----
-
 ## **Utility Types**
 
 | Utility Type               | What It Does                                     | Real-Life Use                         |
@@ -36,8 +34,6 @@
 | `Awaited<T>`               | Unwraps promise types                            | Async/await type handling             |
 | `ThisType<T>`              | Type for `this` context in objects               | Type-safe dynamic object contexts     |
 
----
-
 ## **Mapped & Indexed Types**
 
 | Type                   | What It Does                | Real-Life Use                     |
@@ -50,8 +46,6 @@
 | `Omit<T, K>`           | Remove specific keys        | Hide sensitive fields             |
 | `in`                   | Iterates over union types   | Used in mapped types              |
 
----
-
 ## **Conditional Types**
 
 | Type                  | What It Does                          | Real-Life Use                      |
@@ -62,8 +56,6 @@
 | `Exclude<T, U>`       | Removes types from a union            | Filter union types                 |
 | `NonNullable<T>`      | Removes `null` and `undefined`        | Enforce defined values             |
 | `Awaited<T>`          | Extracts resolved type from a promise | Async type safety                  |
-
----
 
 ## **Advanced / Deep Utility Types**
 
@@ -80,8 +72,6 @@
 | `DeepFlatten<T>`         | Recursively flatten nested arrays       | Complex nested arrays        |
 | `TupleToUnion<T>`        | Convert tuple to union type             | Flexible generic typing      |
 
----
-
 ## **Function & Constructor Types**
 
 | Type                       | What It Does                       | Real-Life Use                  |
@@ -91,8 +81,6 @@
 | `ReturnType<T>`            | Get function return type           | Reuse outputs                  |
 | `InstanceType<T>`          | Get instance type of a class       | Infer object types dynamically |
 | `ThisType<T>`              | Type of `this` context             | Typed dynamic object context   |
-
----
 
 ## **Misc / Helpers**
 
@@ -106,8 +94,6 @@
 | `any`     | Skip type checking             | Quick prototyping          |
 | `never`   | Impossible type                | Exhaustive checks          |
 | `void`    | No return type                 | Side-effect-only functions |
-
----
 
 ## **Generics**
 
